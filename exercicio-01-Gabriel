@@ -10,16 +10,16 @@
     <header>
         <h1>Área de Contato do Cliente<h1>
         <nav>
-            <a href="#">Ajuda</a> | <a href="#">Sair<a>
-        </nav>
-    </header>
+            <a href="#">Ajuda<a> | <a href="#">Sair<a>
+        <nav>
+    <header>
 
     <main>
         <h2>Envie sua mensagem para a nossa equipe de suporte backend<h2>
 
         <form action="/enviar" method="POST">
 
-            <label for="nome">Nome:</label><br>
+            <label for="nome">Nome:<label>
             <input type="text" id="nome" name="nome" required>
 
             <label for="email">Email:</label><br>
@@ -45,5 +45,5 @@
         <p>Suporte Tech 2026<p>
     <footer>
 
-</body>
+<body>
 <html>
