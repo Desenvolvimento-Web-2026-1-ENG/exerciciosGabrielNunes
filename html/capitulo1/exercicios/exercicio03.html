@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Grade Horária de Aulas do Módulo</title>
+</head>
+<body>
+    
+    <div class="bloco-cronograma">
+        <h2 class="titulo-seccao">Horários acadêmicos</h2>
+        <table border="1">
+            <caption>Grade de horários das aulas do módulo</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Aula</th>
+                    <th scope="col">Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Estruturação Multimídia</td>
+                    <td>19:00 - 20:30</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p>Recursos necessários:</p>
+        <ul>
+            <li>Computador com IDE configurada</li>
+            <li>Arquivos de legenda (.vtt) prontos</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div class="bloco-video">
+        <h2>Apresentação da Disciplina</h2>
+        <video src="apresentacao.mp4" controls>
+            <track kind="captions" src="legendas.vtt" srclang="pt" label="Português" default>
+            Seu navegador não suporta a tag de vídeo.
+        </video>
+    </div>
+
+    <div class="bloco-mapa">
+        <h2>Localização do Campus IFF</h2>
+        <iframe src="https://mapas.iff.edu.br" sandbox="" title="Mapa interativo de localização do Instituto Federal Fluminense em Campos dos Goytacazes"></iframe>
+    </div>
+
+</body>
+</html>
