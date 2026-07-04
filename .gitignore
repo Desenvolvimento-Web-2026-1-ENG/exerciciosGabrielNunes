@@ -1,0 +1,100 @@
+# ==========================================
+# 1. Sistema Operacional (Lixo Global)
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# 2. Ambientes de Desenvolvimento (IDEs)
+# ==========================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# 3. Governança de IA (Orquestração)
+# ==========================================
+.antigravity/
+.ag_history/
+*.ag_temp
+
+# ==========================================
+# 4. Seções Modulares (Descomente conforme o projeto)
+# ==========================================
+
+# Python / Automações
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Node.js / Web / Backend
+# node_modules/
+# dist/
+# .env
+# .env.local
+
+# Compilados / Embarcados
+# build/
+# bin/
+# .pio/
+# *.o
+# *.out
+
+# ==========================================
+# 5. Segurança e Credenciais (AppSec / Zero-Trust)
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# ==========================================
+# 6. Observabilidade e Telemetria (DevOps / LGPD)
+# ==========================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# 7. Frontend e UI/UX (Builds e Caches)
+# ==========================================
+# Dependências de Pacotes (Garantia de Bloqueio)
+node_modules/
+jspm_packages/
+
+# Pastas de Compilação e Distribuição (Vite, Next.js, React, Vue)
+dist/
+dist-ssr/
+build/
+.next/
+out/
+.nuxt/
+
+# Caches de Qualidade de Código (Linters e Formatters)
+.eslintcache
+.stylelintcache
+.prettiercache
+
+# Caches de Bundlers
+.parcel-cache
+.vite/
+
+# Arquivos de debug locais do Front-end
+*.tsbuildinfo
